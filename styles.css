@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(23, 23, 23);
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(23, 23, 23);
+}
+
+.hero .home-name{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: "Chalkduster", "fantasy" ;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    font-family: "Times New Roman";
+    font-size:50px;
+    color: #f8f7f7;
+    margin-bottom: 20px;
+}
+
+span{
+    font-family: "Times New Roman";
+    color: rgb(148, 213, 151);
+}
+
+.detel p{
+    color: #a8a5a5;
+    line-height: 22px;
+    font-size: 22px;
+    padding-right: 1100px;
+}
+
+.detel .CV{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.detel .contact{
+    color: #a8a5a5;
+    line-height: 22px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images .shape{
+    width: 120%;
+    height: auto;
+    position: absolute;
+    left:50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 120px;
+    width: 120%;
+    height: auto;
+}
+
+.images .top {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    z-index: 1;
+    background-color: transparent;
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .top{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.images .hov {
+    display: none;
+}
+
+.images:hover .hov{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    z-index: 1;
+    background-color: transparent;
+    display:inline;
+}
+
+
+
+/*.images:hover .girl{
+    left: 45px;
+}*/
+
+/* Events */
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    margin: 0 15px; /* Adjust as needed */
+    box-sizing: border-box;
+    max-width: calc(50% - 30px); /* Adjust as needed */
+}
+
+.column img{
+    width: 700px;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: white;
+}
+
+.title h1{
+    font-family: "Times New Roman";
+    font-size:70px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.events .container{
+    margin-top: 50px;
+}
+
+.events .name_p{
+    font-size: 4vmin;
+    color: rgb(220, 245, 226);
+    margin: 20px auto;
+    font-family: "Times New Roman";
+    text-decoration: none; 
+}
+
+.column p{
+    color: rgb(110, 163, 127);
+    padding: 0px 40px;
+    font-size: 22px;
+}
+
+.events .ctn{
+    margin-top: 30px;
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+
+.column .project{
+    transition: transform .3s; 
+}
+  
+.column:hover .project{
+    transform: scale(1.05);
+}
+
+
+/* Optional: Add media query for responsiveness */
+@media (max-width: 768px) {
+    .column {
+        max-width: 100%;
+    }
+}
+
+
+/* posts */
+.project-name h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: "Georgia";
+    padding-top: 2%;
+}
+
+.ref1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 4%;
+    padding-bottom: 0.05%;
+}
+
+.ref2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.ref3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.desc p{
+    font-size: 22px;
+    color:rgb(220, 245, 226);
+    font-family: "Georgia";
+    padding-left: 14%;
+    padding-right: 10%;
+    line-height: 40px;
+}
+
+.desc i{
+    font-size: 22px;
+    color:rgb(220, 245, 226);
+    font-family: "Georgia";
+    line-height: 40px;
+}
+.desc b{
+    font-size: 22px;
+    color:rgb(220, 245, 226);
+    font-family: "Georgia";
+    line-height: 40px;
+}
+.desc li{
+    font-size: 22px;
+    color:rgb(220, 245, 226);
+    font-family: "Georgia";
+    padding-left: 20%;
+    padding-right: 10%;
+    line-height: 40px;
+}
+
+.desc .category{
+    font-size: 30px;
+    color:rgb(123, 210, 144);
+    font-family: "Georgia";
+    padding-bottom: 20%;
+    line-height: 120px;
+}
+
+/* Publications */
+.publication {
+    font-size: 4vmin;
+    color: white;
+}
+
+.publication h1{
+    font-family: "Times New Roman";
+    font-size:70px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.submit {
+    color:rgb(220, 245, 226);
+    font-size: 40px;
+    font-family: "Georgia";
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.papers a{
+    color:white;
+    font-size: 30px;
+    font-family: "Georgia";
+    padding-top: 40px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.authors{
+    color: white;
+    font-size: 23px;
+    font-family: "Georgia";
+    padding-top: 20px;
+    text-align: left;
+}
+
+.authors b{
+    color: white;
+    font-size: 23px;
+    font-family: "Georgia";
+    padding-top: 20px;
+    text-align: left;
+}
+
+.ref4 {
+    width: 50%;
+    padding-top: 20px;
+}
+
