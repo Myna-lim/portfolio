@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@
 }
 
 .hero .home-name{
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
     font-family: "Chalkduster", "fantasy" ;
@@ -45,13 +46,13 @@ nav ul li a:hover{
 }
 
 .detel{
-    margin-left: 8%;
-    margin-top: 13%;
+    margin-left: 11%;
+    margin-top: 10%;
 }
 
 .detel h1{
     font-family: "Times New Roman";
-    font-size:50px;
+    font-size:30px;
     color: #f8f7f7;
     margin-bottom: 20px;
 }
@@ -64,25 +65,25 @@ span{
 .detel p{
     color: #a8a5a5;
     line-height: 22px;
-    font-size: 22px;
-    padding-right: 1100px;
+    font-size: 16px;
+    padding-right: 65%;
 }
 
 .detel .CV{
     background: #212121;
-    padding: 10px 18px;
+    padding: 8px 16px;
     text-decoration: none;
     font-weight: bold;
     color: white;
     display: inline-block;
     margin: 30px 0;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .detel .contact{
     color: #a8a5a5;
     line-height: 22px;
-    font-size: 22px;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -91,11 +92,11 @@ span{
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 100px;
+    right: 70px;
 }
 
 .images .shape{
-    width: 120%;
+    width: 100%;
     height: auto;
     position: absolute;
     left:50%;
@@ -106,15 +107,15 @@ span{
 
 .images:hover .shape{
     bottom: 120px;
-    width: 120%;
+    width: 100%;
     height: auto;
 }
 
 .images .top {
-    width: 60%;
+    width: 50%;
     height: auto;
     position: absolute;
-    left: 20%;
+    left: 23%;
     bottom: 20%;
     z-index: 1;
     background-color: transparent;
@@ -122,10 +123,10 @@ span{
 }
 
 .images:hover .top{
-    width: 60%;
+    width: 50%;
     height: auto;
     position: absolute;
-    left: 20%;
+    left: 23%;
     bottom: 20%;
     z-index: 1;
     background-color: transparent;
@@ -136,10 +137,10 @@ span{
 }
 
 .images:hover .hov{
-    width: 60%;
+    width: 50%;
     height: auto;
     position: absolute;
-    left: 20%;
+    left: 23%;
     bottom: 20%;
     z-index: 1;
     background-color: transparent;
@@ -171,7 +172,7 @@ section {
 }
 
 .column img{
-    width: 700px;
+    width: 500px;
 }
 
 .title {
@@ -182,7 +183,7 @@ section {
 
 .title h1{
     font-family: "Times New Roman";
-    font-size:70px;
+    font-size:50px;
     text-align: center;
     padding-top: 10px;
 }
@@ -202,7 +203,7 @@ section {
 .column p{
     color: rgb(110, 163, 127);
     padding: 0px 40px;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 .events .ctn{
@@ -236,13 +237,7 @@ section {
 
 
 /* posts */
-.project-name h1{
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    font-family: "Georgia";
-    padding-top: 2%;
-}
+
 
 .ref1 {
     display: block;
@@ -272,7 +267,7 @@ section {
 }
 
 .desc p{
-    font-size: 22px;
+    font-size: 19px;
     color:rgb(220, 245, 226);
     font-family: "Georgia";
     padding-left: 14%;
@@ -281,19 +276,19 @@ section {
 }
 
 .desc i{
-    font-size: 22px;
+    font-size: 19px;
     color:rgb(220, 245, 226);
     font-family: "Georgia";
     line-height: 40px;
 }
 .desc b{
-    font-size: 22px;
+    font-size: 20px;
     color:rgb(220, 245, 226);
     font-family: "Georgia";
     line-height: 40px;
 }
 .desc li{
-    font-size: 22px;
+    font-size: 19px;
     color:rgb(220, 245, 226);
     font-family: "Georgia";
     padding-left: 20%;
@@ -302,7 +297,7 @@ section {
 }
 
 .desc .category{
-    font-size: 30px;
+    font-size: 25px;
     color:rgb(123, 210, 144);
     font-family: "Georgia";
     padding-bottom: 20%;
@@ -317,23 +312,23 @@ section {
 
 .publication h1{
     font-family: "Times New Roman";
-    font-size:70px;
+    font-size:40px;
     padding-top: 10px;
     text-align: center;
 }
 
 .submit {
     color:rgb(220, 245, 226);
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Georgia";
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 35px;
     text-align: left;
 }
 
 .papers a{
     color:white;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Georgia";
     padding-top: 40px;
     text-align: left;
@@ -342,7 +337,7 @@ section {
 
 .authors{
     color: white;
-    font-size: 23px;
+    font-size: 19px;
     font-family: "Georgia";
     padding-top: 20px;
     text-align: left;
@@ -350,7 +345,7 @@ section {
 
 .authors b{
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     font-family: "Georgia";
     padding-top: 20px;
     text-align: left;
@@ -361,3 +356,10 @@ section {
     padding-top: 20px;
 }
 
+.project-name h1{
+    text-align: center;
+    font-size: 33px;
+    color: white;
+    font-family: "Georgia";
+    padding-top: 2%;
+}
