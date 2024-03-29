@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myna Lim</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <li><a href="index.html" class="home-name">ML</a></li>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="publications.html">PUBLICATIONS</a></li>
+                <li><a href="contacts.html">CONTACT ME</a></li>
+            </ul>
+        </nav>
+       
+        <div class="project-name">
+            <h1>Design and Critique</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="desc">
+            <img src="images/4310_1-1.png" class="ref1">
+            <br>
+            <p>
+                <a href="https://info4310-hw4-ehlv.onrender.com/static/" class=project_link>(link) What Do Men Think It Means To Be A Man?</a><br>
+                <b class="category">Source Visualization Critique</b>:<br> Our source visualizations are from a FiveThirtyEight article titled “What Do Men Think It Means To Be A Man?” by Ella Koeze and Anna Maria Barry-Jester. This set of visualizations pulled its data from a survey of 1,615 adult men conducted by FiveThirtyEight and WNYC Studios in May 2018. Below are three of the six visualizations included in this article.
+                These visualizations were intended to accompany an article’s paragraphs of both written statistics and direct quotes 
+                collected from the 2018 survey. Thus, instead of creating an engaging, complex visualization that takes time to explore, 
+                the designer’s goal was to give readers quick, concise takeaways as they read through blocks of text. They only utilized
+                 static horizontal aligned bar graphs, only a handful of contrasting colors, and keeps surrounding information to a
+                  minimum. Only one of the six visualizations is segmented by age, which adds one extra dimension of information. As a
+                   result, insights can be easily pulled by readers of all levels of visualization expertise.
+                
+                 <br><br>
+
+                <b class="category">Design Rationale
+                </b><br> 
+                <b>Complete set of survey questions:</b> While exploring the source dataset, we discovered that there was much more useful 
+                data beyond what the FiveThirtyEight article captured. While the authors only visualized answers to six questions, 
+                they had asked a total 25 usable questions in their survey—thus, we decided to create a <b>dynamic bar chart </b>that changes 
+                data based on the selected survey question, which can be browsed through via two arrow buttons. 
+                <li>The left axis of the bar chart displays the range of responses to each question, and the bottom axis represents the 
+                percentage of each response. We decided to make this a horizontal bar chart due to the lengthy left axis labels. </li>
+                    <br><p>
+             <b>Categorized data:</b> During our data exploration, we also noticed that the authors’ survey questions were already
+                 categorized into four broad categories: masculinity, lifestyle, work, and relationships. To ease the process of cycling
+                  through questions, we decided to allow users to filter the data down to a specific category using playful icons. Each 
+                  time an icon is clicked, users have access to a new set of questions.
+
+                  <b>Categorized data:</b> During our data exploration, we also noticed that the authors’ survey questions were already 
+                  categorized into four broad categories: masculinity, lifestyle, work, and relationships. To ease the process of cycling
+                   through questions, we decided to allow users to filter the data down to a specific category using playful icons. 
+                   Each time an icon is clicked, users have access to a new set of questions.</p><br>
+        
+                        <li>We ran into a challenge with this second chart due to the way that demographic data was collected.
+                             Ideally, we would have wanted each bar to represent an answer choice (similar to our first bar chart),
+                              and each bar would be comprised of stacked bars representing each demographic group (ex. ages 18-34, 
+                              ages 35-64, and ages 65+ all stacked into a singular bar). However, the data was not structured this way:
+                               demographic buckets did not sum to 100% for a single answer choice, only multiple answer choices for a 
+                               single bucket (ex. age 18-34) summed to 100%. As a result, our left axis displays all of the possible 
+                               demographic buckets, and the stacked bars correspond to answer choices.</li>
+                        <li>
+                            Another decision made during this process was to remove the demographic breakdown view on the right 
+                            for questions that were originally presented as multi-select (select all that apply). As a result, the 
+                            breakdown bars would’ve summed up to more than 100%. Another way to iterate on this project in the future
+                             would be to provide alternate views to the stacked bar chart that provide the user with different views 
+                             of the data.
+                        </li>
+                        <li>
+                            To facilitate comprehension of demographic breakdowns, we added <b>hover interactivity</b> within our 
+                            visualization: when a user hovers over a specific answer choice on the left bar chart, the corresponding 
+                            stacked bar (on the right) is emphasized so that a user can see how much of each demographic group answered 
+                            in a specific way. [Example: A user is interested in the percentage of gay/bisexual respondents that 
+                            answered “very masculine” to the question “In general, how masculine or ‘manly’ do you feel?”. They hover 
+                            over the “very masculine” bar on the left chart, and can look to the right chart to see that 20% of 
+                            gay/bisexual respondents answered “very masculine.”]
+                        </li>
+
+                        <p>
+                        <b>Podcast audios:</b> The authors also embedded WNYC’s 40-minute “Death Sex & Money” podcast within their article, 
+                        in which men were interviewed on their thoughts on masculinity. We thought that this podcast provided valuable 
+                        context to the quantitative data, so we decided to insert <b>audio clips</b> from the podcast for each of the four 
+                        interview categories. These audios change based on the selected category.
+                        </p>
+
+
+                
+
+
+                 <br><br>
+
+
+
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

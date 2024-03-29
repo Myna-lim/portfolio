@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myna Lim</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <li><a href="index.html" class="home-name">ML</a></li>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="publications.html">PUBLICATIONS</a></li>
+                <li><a href="contacts.html">CONTACT ME</a></li>
+            </ul>
+        </nav>
+       
+        <div class="project-name">
+            <h1>Sonny Angel Projector</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="desc">
+            <img src="images/4320_1-1.jpg" class="ref3">
+            <br>
+            <p>
+                <a href="https://youtu.be/31eAzUKjHz0" class="project_link">(link) Sonny Angel Projector</a><br>
+                <b class="category">Description</b>:<br> 
+                The "Sonny Angel Projector" jack-in-the-box device created using Arduino combines mechanical motion with user 
+                interaction to deliver a surprise experience. At its core, the device comprises a toggle switch, a potentiometer, 
+                a servo motor, and a stepper motor, all orchestrated by an Arduino microcontroller. The toggle switch serves as the 
+                trigger mechanism, initiating the sequence when activated. The potentiometer, positioned to the right of the toggle,
+                 acts as the probability dial, allowing users to adjust the likelihood of receiving a Sonny Angel figurine upon activation.
+                 <img src="images/4320_1-2.png" class="ref1">
+                 <br>
+                <br>
+                Upon triggering the toggle switch, the servo motor swings into action, rotating precisely 100 degrees to lift 
+                the lid of the jack-in-the-box, revealing its contents. Simultaneously, the Arduino interprets the position of
+                 the potentiometer, determining the probability of the outcome. With the potentiometer set to the rightmost position,
+                  corresponding to 100% probability, the chance of receiving a Sonny Angel figurine is maximized, while setting it to 
+                  the leftmost position results in a 0% probability, ensuring a "try again" outcome.
+                <br>
+                The Arduino then engages the stepper motor to dispense the selected item. A sequence of 60 steps is executed,
+                 each separated by a 5000 microsecond delay, ensuring smooth and controlled movement. The direction of rotation is 
+                 determined by the calculated outcome, either towards the compartment containing the Sonny Angel figurine or the 
+                 "try again" panel.
+                 <br>
+                 Once the selection process is completed, the servo motor swings back into action, rotating another 100 degrees 
+                 in the opposite direction to gracefully close the lid of the jack-in-the-box, concealing its contents once more.
+                  This cyclical operation ensures the device is ready for subsequent activations, providing endless amusement and 
+                  surprise for its users.
+                <br>
+                The mechanical design of the device encompasses precise motor control, seamless motion, and intuitive user interaction,
+                 resulting in a captivating and entertaining experience reminiscent of traditional jack-in-the-box toys, albeit with 
+                 a modern twist. Below is a simplified sketch illustrating the layout and components of the device:
+
+                    <li>Toggle Switch | Potentiometer (Adjustable) | Sonny Angel Figurine Compartment
+                    </li>
+                    <li>Arduino Microcontroller
+                    </li>
+                    <li>
+                        Servo Motor (Controlled by Arduino)
+                    </li>
+                    <li>
+                        Stepper Motor (Controlled by Arduino)
+                    </li>
+                    <li>
+                        "Try Again" Panel Compartment
+                    </li>
+                    <img src="images/4320_1-3.jpg" class="ref1">
+                    <br>
+
+
+
+
+
+
+
+
+
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
