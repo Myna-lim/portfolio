@@ -6,6 +6,7 @@
     background: rgb(23, 23, 23);
 }
 
+
 .hero{
     position: relative;
     width: 100%;
@@ -338,15 +339,18 @@ section {
     padding-bottom: 35px;
     text-align: left;
 }
-
-.papers a{
+.authors *{
+    font-family: "Georgia"; 
+}
+.authors a{
     color:white;
-    font-size: 25px;
+    font-size: 19;
     font-family: "Georgia";
-    padding-top: 40px;
+    padding-top: 20;
     text-align: left;
     text-decoration: underline;
 }
+
 
 .authors{
     color: white;
@@ -354,6 +358,12 @@ section {
     font-family: "Georgia";
     padding-top: 20px;
     text-align: left;
+}
+
+.authors i{
+    color: white;
+    font-size: 19px;
+    font-family: "Georgia";
 }
 
 .authors b{
